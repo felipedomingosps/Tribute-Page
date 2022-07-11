@@ -57,6 +57,7 @@ section {
 	display: flex;
 	align-items: center;
 	padding: 15px;
+	gap: 15px;
 }
 
 img {
@@ -69,6 +70,7 @@ main {
 
 main .content {
 	margin: 0 auto;
+	padding: 0;
 }
 
 main > div {
@@ -109,8 +111,7 @@ section:nth-of-type(odd) {
 }
 
 .quote {
-	margin: 50px;
-	padding: 15px;
+	padding: 50px 15px;
 }
 
 /* FOOTER */
