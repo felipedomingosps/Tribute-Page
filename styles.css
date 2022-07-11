@@ -101,6 +101,11 @@ section:nth-last-of-type(2) > div > img {
 
 .content p {
 	margin: 10px 0px;
+	text-align: justify;
+}
+
+main .content p {
+	text-align: center;
 }
 
 /* QUOTE */
