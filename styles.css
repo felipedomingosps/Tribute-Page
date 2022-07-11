@@ -39,6 +39,11 @@ header {
 	text-align: center;
 }
 
+h1 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 42px;
+}
+
 main, section {
 	background-color: var(--cobalt-blue);
 	width: 100%;
@@ -103,6 +108,8 @@ section:nth-last-of-type(2) > div > img {
 .content p {
 	margin: 10px 0px;
 	text-align: justify;
+	font-family: 'Roboto',sans-serif;
+	font-size: 20px;
 }
 
 main .content p {
@@ -113,11 +120,20 @@ main .content p {
 
 section:nth-of-type(odd) {
 	width: 100%;
+	
 	text-align: center;
 }
 
 .quote {
+	max-width: 1280px;
 	padding: 50px 15px;
+	margin: 0 auto;
+}
+
+.quote p {
+	font-family: 'Open Sans',sans-serif;
+	font-size: 36px;
+	font-style: italic;
 }
 
 /* FOOTER */
