@@ -31,4 +31,30 @@ COBALT
 body {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
+}
+
+/* CONTENT */
+
+img {
+	width: 50%;
+}
+
+header {
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.content {
+	width: 90%;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+
+/* QUOTE */
+
+.quote {
+	width: 90%;
+	max-width: 1920px;
+	margin: 0 auto;
 }
