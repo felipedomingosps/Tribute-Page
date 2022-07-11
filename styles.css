@@ -29,9 +29,9 @@ COBALT
 /* GENERAL */
 
 body {
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
 }
 
 /* CONTENT */
@@ -41,15 +41,26 @@ header {
 	text-align: center;
 }
 
+section {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
 .content {
-	width: 90%;
-	max-width: 1920px;
+	max-width: 1280px;
 	margin: 0 auto;
 	display: flex;
+	align-items: center;
+	margin: 25px 0px;
+	gap: 25px;
 }
 
 img {
 	width: 50%;
+}
+
+main {
+	margin: 0 auto;
 }
 
 main > div {
@@ -58,6 +69,10 @@ main > div {
 
 main > div > img {
 	width: 100%;
+}
+
+main > div > .text {
+	width: 80%;
 }
 
 section:nth-last-of-type(2) > div {
@@ -74,10 +89,20 @@ section:nth-last-of-type(2) > div > img {
 	flex-direction: column;
 }
 
+p {
+	margin: 10px 0px;
+}
+
 /* QUOTE */
 
 .quote {
-	width: 90%;
-	max-width: 1920px;
-	margin: 0 auto;
+	max-width: 1280px;
+	margin: 25px auto;
+	text-align: center;
+}
+
+/* FOOTER */
+footer {
+	text-align: center;
+	margin: 20px 0px;
 }
