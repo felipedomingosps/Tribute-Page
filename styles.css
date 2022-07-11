@@ -38,8 +38,12 @@ header {
 	text-align: center;
 }
 
-header, main, section {
+main, section {
 	background-color: var(--cobalt-blue);
+}
+
+header, footer {
+	background-color: var(--royal-blue-dark);
 }
 
 section {
