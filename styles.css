@@ -86,16 +86,19 @@ section:nth-last-of-type(2) > div > img {
 	flex-direction: column;
 }
 
-p {
+.content p {
 	margin: 10px 0px;
 }
 
 /* QUOTE */
 
-.quote {
-	max-width: 1280px;
-	margin: 25px auto;
+section:nth-of-type(odd) {
+	width: 100%;
 	text-align: center;
+}
+
+.quote {
+	margin: 50px;
 }
 
 /* FOOTER */
