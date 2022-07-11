@@ -1,6 +1,4 @@
-/*
-
-COLORS 
+:root {
 	--cobalt-blue: #0047AB;
 	--rosewood: #611714ff;
 	--phthalo-green: #162B02ff;
@@ -11,8 +9,8 @@ COLORS
 	--sinopia: #C85127ff;
 	--royal-blue-dark: #082760ff;
 	--medium-blue: #0423C9ff;
-
-COBALT
+}
+/*
 	- #0047AB; < Main
 	- Generic Gradient: #0047A4, #9D48A5, #E8558D, #FF816D,
 	#FFBC5A, #F9F871;
@@ -23,7 +21,6 @@ COBALT
 	- Matching:  #0047A4, #454655, #A9AABC, #624900, #997900;
 	- Grey Friends:  #0047A4, #454655, #A9AABC;
 	- Threedom:  #0047A4, #991400, #006036;
-
 */
 
 /* GENERAL */
