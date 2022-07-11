@@ -25,3 +25,10 @@ COBALT
 	- Threedom:  #0047A4, #991400, #006036;
 
 */
+
+/* GENERAL */
+
+body {
+	display: flex;
+	flex-direction: column;
+}
