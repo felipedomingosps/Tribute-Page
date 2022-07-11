@@ -42,7 +42,7 @@ main, section {
 	background-color: var(--cobalt-blue);
 }
 
-header, footer {
+header {
 	background-color: var(--royal-blue-dark);
 }
 
@@ -110,7 +110,9 @@ section:nth-of-type(odd) {
 }
 
 /* FOOTER */
+
 footer {
 	text-align: center;
-	margin: 20px 0px;
+	padding: 20px 0px;
+	background-color: var(--royal-blue-dark);
 }
