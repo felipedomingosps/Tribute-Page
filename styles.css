@@ -46,26 +46,6 @@ h1 {
 	font-family: 'Bebas Neue', sans-serif;
 }
 
-
-section {
-	width: 80%;
-	max-width: 1280px;
-	margin: 0 auto;
-}
-
-.content {
-	max-width: 1280px;
-	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	gap: 25px;
-}
-
-section img {
-	width: 50%;
-	border: 10px solid black;
-}
-
 main {
 	margin: 0 auto;
 }
@@ -92,6 +72,21 @@ main > div > .text > p:first-letter {
 	font-size: 36px;
 }
 
+section {
+	width: 80%;
+	max-width: 1280px;
+	margin: 0 auto;
+	flex-wrap: wrap;
+}
+
+.content {
+	max-width: 1280px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
 section:nth-last-of-type(2) > div {
 	flex-direction: column-reverse;
 }
@@ -101,12 +96,19 @@ section:nth-last-of-type(2) > div > img {
 	margin: 0 auto;
 }
 
+section img {
+	width: 100px;
+	flex: 1 1 0;
+	border: 10px solid black;
+}
+
 section > .content > .text {
 	display: flex;
 	flex-direction: column;
 	font-size: 20px;
 	text-align: justify;
 	font-weight: 500;
+	flex: 1 1 0;
 }
 
 section > .content p {
