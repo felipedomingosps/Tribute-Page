@@ -29,6 +29,7 @@ body {
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Roboto', sans-serif;
 }
 
 /* CONTENT */
@@ -37,6 +38,13 @@ header {
 	padding: 20px 0px;
 	text-align: center;
 }
+
+
+h1 {
+	font-size: 42px;
+	font-family: 'Bebas Neue', sans-serif;
+}
+
 
 section {
 	max-width: 1280px;
