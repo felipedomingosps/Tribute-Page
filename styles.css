@@ -73,7 +73,8 @@ main > div {
 } 
 
 main > div > img {
-	width: 100%;
+	width: 80%;
+	border: 10px solid black;
 }
 
 main > div > .text {
