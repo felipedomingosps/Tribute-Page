@@ -36,6 +36,8 @@ body {
 
 header {
 	padding: 20px 0px;
+	font-weight: 600;
+	letter-spacing: 5px;
 	text-align: center;
 }
 
