@@ -134,5 +134,12 @@ section:nth-of-type(odd) {
 /* FOOTER */
 footer {
 	text-align: center;
-	margin: 20px 0px;
+	padding: 20px 0px;
+	background-color: black;
+	color: white;
+}
+
+footer a:visited {
+	color: white;
+	font-style: italic;
 }
