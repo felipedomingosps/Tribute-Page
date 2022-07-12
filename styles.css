@@ -117,6 +117,8 @@ section:nth-of-type(odd) {
 
 .quote {
 	margin: 50px;
+	font-size: 36px;
+	font-style: italic;
 }
 
 /* FOOTER */
