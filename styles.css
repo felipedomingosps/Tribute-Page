@@ -99,13 +99,21 @@ section:nth-last-of-type(2) > div > img {
 	margin: 0 auto;
 }
 
-.text {
+section > .content > .text {
 	display: flex;
 	flex-direction: column;
+	font-size: 20px;
+	text-align: justify;
 }
 
-.content p {
+section > .content p {
 	margin: 10px 0px;
+	line-height: 1.5em;
+}
+
+section > .content p:first-letter {
+	margin-left: 2em;
+	
 }
 
 /* QUOTE */
