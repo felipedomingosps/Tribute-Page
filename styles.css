@@ -60,8 +60,9 @@ section {
 	gap: 25px;
 }
 
-img {
+section img {
 	width: 50%;
+	border: 10px solid black;
 }
 
 main {
