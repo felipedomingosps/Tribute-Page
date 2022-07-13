@@ -74,13 +74,12 @@ main > div > .text > p:first-letter {
 
 section {
 	width: 80%;
-	max-width: 1280px;
+	max-width: 940px;
 	margin: 0 auto;
-	
 }
 
 .content {
-	max-width: 1280px;
+	max-width: 940px;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
@@ -90,8 +89,7 @@ section {
 }
 
 section img {
-	min-width: 350px;
-	flex: 1 1 0;
+	min-width: 100px;
 	border: 10px solid black;
 }
 
@@ -101,8 +99,6 @@ section > .content > .text {
 	font-size: 20px;
 	text-align: justify;
 	font-weight: 500;
-	flex: 1 1 0;
-	min-width: 350px;
 }
 
 section > .content p {
@@ -116,12 +112,13 @@ section > .content p:first-letter {
 }
 
 section:nth-last-of-type(2) > div {
-	flex-direction: column-reverse;
-	wrap: nowrap;
+	order: 2;
 }
 
 section:nth-last-of-type(2) > div > img {
-	width: 100%;
+	height: auto;
+	max-width: 100%;
+	order: 1;
 }
 
 /* QUOTE */
